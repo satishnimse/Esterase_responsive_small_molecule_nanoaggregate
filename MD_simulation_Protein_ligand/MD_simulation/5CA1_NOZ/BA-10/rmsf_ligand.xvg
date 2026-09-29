@@ -1,0 +1,60 @@
+# This file was created Sun Jul 26 08:42:14 2026
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2025.3 (-:
+# 
+# Executable:   /home/satishnimse/gromacs-2025.3-install/bin/gmx
+# Data prefix:  /home/satishnimse/gromacs-2025.3-install
+# Working dir:  /media/satishnimse/D_shared/Research/Benzimidazole_gyuseong/BA-BE_insilico/MD_simulation/5CA1_NOZ/BA-10
+# Command line:
+#   gmx rmsf -s MD.tpr -f MD_center.xtc -n index.ndx -o xvg/rmsf_ligand.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+13354   0.0164
+13355   0.0370
+13356   0.0508
+13357   0.0315
+13358   0.0192
+13359   0.0300
+13360   0.0223
+13361   0.0329
+13362   0.0342
+13363   0.0222
+13364   0.0397
+13365   0.0410
+13366   0.0410
+13367   0.0224
+13368   0.0311
+13369   0.0296
+13370   0.0749
+13371   0.1752
+13372   0.0446
+13373   0.1402
+13374   0.0727
+13375   0.0328
+13376   0.0804
+13377   0.0660
+13378   0.0563
+13379   0.0794
+13380   0.0582
+13381   0.0651
+13382   0.0539
+13383   0.0575
+13384   0.0628
+13385   0.1429
+13386   0.1270
+13387   0.2341
+13388   0.2324
+13389   0.2322
+13390   0.1162
+13391   0.1248
+13392   0.2019
+13393   0.2006
+13394   0.2026
+13395   0.1165
+13396   0.0656

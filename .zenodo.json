@@ -1,0 +1,27 @@
+{
+  "title": "Molecular dynamics data: An Esterase-Responsive Molecular Switch Controls the Biological Consequences of Small-Molecule Nanoaggregation",
+  "upload_type": "dataset",
+  "description": "Analysis data supporting the molecular dynamics results of the manuscript \"An Esterase-Responsive Molecular Switch Controls the Biological Consequences of Small-Molecule Nanoaggregation\". The archive contains (1) protein–ligand MD (100 ns) and MM-GBSA/MM-PBSA data for BA-3/7/8/10 and BE-3/7/8/10 at the colchicine (PDB 4O2B) and nocodazole (PDB 5CA1) sites of tubulin, and (2) explicit-solvent self-assembly MD of BE-7, neutral BA-7 and the BA-7 carboxylate (27 molecules, 3 replicates × 100 ns). See README.md for the protocol, file descriptions and units.",
+  "creators": [
+    {"name": "Yeom, Gyu Seong", "affiliation": "OBMC Lab, Major in Smart-Healthcare Convergence, Hallym University, Chuncheon, Republic of Korea"},
+    {"name": "Park, Su Jeong", "affiliation": "OBMC Lab, Major in Smart-Healthcare Convergence, Hallym University, Chuncheon, Republic of Korea"},
+    {"name": "Warkad, Shrikant Dashrath", "affiliation": "OBMC Lab, Major in Smart-Healthcare Convergence, Hallym University, Chuncheon, Republic of Korea"},
+    {"name": "Lee, Kooyeon", "affiliation": "Department of Bio-Health Technology, Kangwon National University, Chuncheon, Republic of Korea; Research Institute, K-medichem Co., Ltd., Chuncheon, Republic of Korea"},
+    {"name": "Song, In-ho", "affiliation": "OBMC Lab, Major in Smart-Healthcare Convergence, Hallym University, Chuncheon, Republic of Korea"},
+    {"name": "Kim, Eun Ji", "affiliation": "Research Institute, SRE Service Co., Ltd., Chuncheon, Republic of Korea"},
+    {"name": "Jung, Jae In", "affiliation": "Institute of Medical Bio-Convergence, Hallym University, Chuncheon, Republic of Korea"},
+    {"name": "Nimse, Satish Balasaheb", "affiliation": "OBMC Lab, Major in Smart-Healthcare Convergence; Hallym AI-Biohealth R&BD Center; Multidisciplinary Genome Institute, Hallym University, Chuncheon, Republic of Korea"}
+  ],
+  "keywords": [
+    "benzimidazole",
+    "nanoaggregation",
+    "self-assembly",
+    "molecular dynamics",
+    "MM-GBSA",
+    "MM-PBSA",
+    "tubulin",
+    "esterase"
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open"
+}

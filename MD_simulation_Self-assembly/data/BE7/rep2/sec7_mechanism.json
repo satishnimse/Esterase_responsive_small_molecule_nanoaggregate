@@ -1,0 +1,81 @@
+{
+  "system": "BE7",
+  "rep": "rep2",
+  "window_ns": [
+    50,
+    100
+  ],
+  "subsample_ps": 1000.0,
+  "note_subsampling": "Sec7 per-frame metrics (H-bonds, pi-stacking, group contacts, water shell) subsampled to 1 frame/ns across 50-100ns (50 frames) for compute budget; documented simplification, not full-frame statistics.",
+  "hbonds": {
+    "solute_solute_per_molecule_mean": 0.2476397966594045,
+    "solute_water_per_molecule_mean": 0.3195352214960058,
+    "n_frames_sampled": 51,
+    "criterion": "D-A<=0.35nm heavy-heavy (approx via H position for water in D-H...A geometry), D-H...A angle>=150deg",
+    "donors_considered": [
+      "H37"
+    ],
+    "acceptors_considered": [
+      "O21",
+      "O22",
+      "N7"
+    ],
+    "cyclic_acid_dimer_occupancy_pct": "n/a (no carboxylic-acid donor in this species)"
+  },
+  "pi_stacking": {
+    "pct_molecules_stacked_mean": 25.998547567175017,
+    "pct_molecules_stacked_range": [
+      7.407407407407407,
+      59.25925925925926
+    ],
+    "centroid_centroid_dist_nm_mean": 0.4626477393378991,
+    "centroid_centroid_dist_nm_std": 0.06361556498349492,
+    "interplanar_angle_deg_mean": 18.57825256610072,
+    "interplanar_angle_deg_std": 7.457363380310955,
+    "n_geometries_pooled": 205,
+    "judgment_call": "Ring definition simplified to a single best-fit plane through the WHOLE fused polyaromatic core per molecule (SVD normal), not individual 5-/6-membered sub-rings; stacking = centroid-centroid <=0.6nm AND interplanar angle<=30deg. This detects overall face-to-face stacking of the flat scaffold but cannot resolve which sub-ring mediates a given contact."
+  },
+  "group_contact_map": {
+    "groups": [
+      "aromatic",
+      "headgroup",
+      "pyrrole_NH"
+    ],
+    "mean_intermolecular_contact_counts": [
+      [
+        1299.5686274509803,
+        435.4313725490196,
+        400.0980392156863
+      ],
+      [
+        435.4313725490196,
+        53.03921568627451,
+        47.03921568627451
+      ],
+      [
+        400.0980392156863,
+        47.03921568627451,
+        16.666666666666668
+      ]
+    ],
+    "criterion": "atom-atom <0.45nm, intermolecular only, mean over sampled window frames",
+    "note": "alkyl group not separately defined -- scaffold is fully (hetero)aromatic/fused-ring with no distinct aliphatic chain besides the ester methyl (included in BE7 headgroup); judgment call documented."
+  },
+  "water_first_shell": {
+    "waters_per_molecule_mean": 6.154684095860567,
+    "waters_per_molecule_range": [
+      4.777777777777778,
+      8.11111111111111
+    ],
+    "criterion": "water O within 0.35nm of any solute heavy atom, divided by N molecules"
+  },
+  "water_diffusion_simplified": {
+    "method": "SIMPLIFIED single-time-origin (not multi-origin, not full nojump-unwrapped) MSD over one 200 ps lag at t=75.0 ns, minimum-image displacement (adequate for this short lag since PBC re-crossing within 200ps is rare for water) -- reported as a simplified estimate per task instructions, not a rigorous multi-origin water diffusion analysis.",
+    "n_shell_waters": 146,
+    "n_bulk_waters_sampled": 438,
+    "lag_ps": 200.0,
+    "D_shell_cm2_per_s": 6.12901528676351e-05,
+    "D_bulk_cm2_per_s": 6.577847798665364e-05,
+    "D_shell_over_D_bulk": 0.9317660539374412
+  }
+}

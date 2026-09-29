@@ -1,0 +1,49 @@
+# This file was created Thu Jul 30 13:12:23 2026
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2025.3 (-:
+# 
+# Executable:   /home/satishnimse/gromacs-2025.3-install/bin/gmx
+# Data prefix:  /home/satishnimse/gromacs-2025.3-install
+# Working dir:  /media/satishnimse/D_shared/Research/Benzimidazole_gyuseong/BA-BE_insilico/MD_simulation/4O2B_CLC/BE-3
+# Command line:
+#   gmx rmsf -s /tmp/corrected_frame0.gro -f MD_center.xtc -n index.ndx -o xvg/rmsf_ligand.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Gnomes, ROck Monsters And Chili Sauce
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+13311   0.0193
+13312   0.0244
+13313   0.0271
+13314   0.0186
+13315   0.0200
+13316   0.0260
+13317   0.0160
+13318   0.0108
+13319   0.0214
+13320   0.0301
+13321   0.0285
+13322   0.0220
+13323   0.0162
+13324   0.0226
+13325   0.0255
+13326   0.0355
+13327   0.0259
+13328   0.0966
+13329   0.1272
+13330   0.0890
+13331   0.0363
+13332   0.0416
+13333   0.0396
+13334   0.0373
+13335   0.0357
+13336   0.0475
+13337   0.0436
+13338   0.0359
+13339   0.0493
+13340   0.1371
+13341   0.1368
+13342   0.1376

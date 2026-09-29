@@ -1,0 +1,54 @@
+# This file was created Thu Aug  6 17:27:23 2026
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2025.3 (-:
+# 
+# Executable:   /home/satishnimse/gromacs-2025.3-install/bin/gmx
+# Data prefix:  /home/satishnimse/gromacs-2025.3-install
+# Working dir:  /media/satishnimse/D_shared/Research/Benzimidazole_gyuseong/BA-BE_insilico/MD_simulation/4O2B_CLC/BE-7
+# Command line:
+#   gmx rmsf -s MD.tpr -f MD_center.xtc -n index.ndx -o xvg/rmsf_ligand.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+13311   0.0189
+13312   0.0321
+13313   0.0368
+13314   0.0264
+13315   0.0206
+13316   0.0223
+13317   0.0210
+13318   0.0161
+13319   0.0283
+13320   0.0349
+13321   0.0297
+13322   0.0150
+13323   0.0098
+13324   0.0242
+13325   0.0249
+13326   0.0320
+13327   0.0296
+13328   0.0311
+13329   0.0277
+13330   0.0218
+13331   0.1098
+13332   0.0906
+13333   0.0868
+13334   0.0452
+13335   0.0526
+13336   0.0356
+13337   0.0412
+13338   0.0509
+13339   0.0437
+13340   0.0377
+13341   0.0393
+13342   0.0479
+13343   0.0427
+13344   0.1357
+13345   0.1352
+13346   0.1385
+13347   0.0400

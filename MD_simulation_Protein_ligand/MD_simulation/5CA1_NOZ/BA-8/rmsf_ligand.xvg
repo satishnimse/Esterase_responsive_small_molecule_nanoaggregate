@@ -1,0 +1,51 @@
+# This file was created Sun Jul 26 08:42:56 2026
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2025.3 (-:
+# 
+# Executable:   /home/satishnimse/gromacs-2025.3-install/bin/gmx
+# Data prefix:  /home/satishnimse/gromacs-2025.3-install
+# Working dir:  /media/satishnimse/D_shared/Research/Benzimidazole_gyuseong/BA-BE_insilico/MD_simulation/5CA1_NOZ/BA-8
+# Command line:
+#   gmx rmsf -s MD.tpr -f MD_center.xtc -n index.ndx -o xvg/rmsf_ligand.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+13354   0.0134
+13355   0.0183
+13356   0.0198
+13357   0.0177
+13358   0.0167
+13359   0.0155
+13360   0.0188
+13361   0.0190
+13362   0.0146
+13363   0.0102
+13364   0.0092
+13365   0.0191
+13366   0.0167
+13367   0.0135
+13368   0.0229
+13369   0.0258
+13370   0.0235
+13371   0.0212
+13372   0.0234
+13373   0.0215
+13374   0.0201
+13375   0.0550
+13376   0.0553
+13377   0.0283
+13378   0.0290
+13379   0.0249
+13380   0.0306
+13381   0.0278
+13382   0.0235
+13383   0.0279
+13384   0.0328
+13385   0.0384
+13386   0.0277
+13387   0.0561

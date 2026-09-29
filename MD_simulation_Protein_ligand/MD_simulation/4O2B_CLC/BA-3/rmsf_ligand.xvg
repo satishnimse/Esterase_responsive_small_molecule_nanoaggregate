@@ -1,0 +1,46 @@
+# This file was created Fri Jul 31 20:56:28 2026
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2025.3 (-:
+# 
+# Executable:   /home/satishnimse/gromacs-2025.3-install/bin/gmx
+# Data prefix:  /home/satishnimse/gromacs-2025.3-install
+# Working dir:  /media/satishnimse/D_shared/Research/Benzimidazole_gyuseong/BA-BE_insilico/MD_simulation/4O2B_CLC/BA-3
+# Command line:
+#   gmx rmsf -s MD.tpr -f MD_center.xtc -n index.ndx -o xvg/rmsf_ligand.xvg
+# gmx rmsf is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Atom"
+@    yaxis  label "(nm)"
+@TYPE xy
+13311   0.0167
+13312   0.0218
+13313   0.0246
+13314   0.0161
+13315   0.0251
+13316   0.0316
+13317   0.0101
+13318   0.0240
+13319   0.0335
+13320   0.0275
+13321   0.0185
+13322   0.0157
+13323   0.0200
+13324   0.0327
+13325   0.0177
+13326   0.0344
+13327   0.0988
+13328   0.0365
+13329   0.0410
+13330   0.0183
+13331   0.1090
+13332   0.1075
+13333   0.0367
+13334   0.0422
+13335   0.0492
+13336   0.0375
+13337   0.0514
+13338   0.0411
+13339   0.0311
